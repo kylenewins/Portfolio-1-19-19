@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kyle Newins Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="Images/Ninja Frog.png">
+    <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+    <style>
+        body {
+            background-color:whitesmoke;
+        }
+        .centerText {
+            text-align:center;
+            align:center;
+        }
+
+        .bottomSpace {
+            margin-bottom: 10px;
+        }
+
+        .pollerText {
+            font-family: 'Poller One';
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--NAVBAR Outside of container-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand pollerText" href="#">Kyle Newins</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav pollerText">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+        </nav>
+    <!--sets up the container that everything goes into-->
+    <div class="container-fluid">
+        <div class="row"> <!--sets up one big row-->
+            <div class="col-md-8 col-sm-12"><!--first column is an 8-->
+                <h1 class="pollerText">About Me</h1>
+                <div class="row"><!--Sets up another 12grid WITHIN THE 8-->
+                        <div class="col-md-4 col-sm-4">
+                            <img class="img-responsive" src="Images/linkedin photo.png">
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <p>Kyle Newins is a fullstack developer (in training) with his eyes set on the prize. He grew up and currently resides at the Jersey shore, where he developed a strong respect and curioristy towards the natural world in which we all live in. Combining that intrigue for nature with a love of Character Design as well as writing & recording his own music, Kyle is a creative powerhouse with the coding skills to back it up!</p>
+                        </div>
+                    </div>
+            </div> <!--ends the subgrid-->
+            <div class="col-md-4 col-sm-12"> <!--pairs with the first column which is an 8-->
+                <div class="card">
+                        <div class="card-header pollerText">
+                          Get Connected!
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a href="#" class="btn btn-primary pollerText">Linkedin</a>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a href="#" class="btn btn-primary pollerText">Facebook</a>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a href="#" class="btn btn-primary pollerText">Github</a>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <a href="#" class="btn btn-primary pollerText">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!--I couldn't figure out how to get the image to resize with the viewport size
+therefore, the bio text overlaps the image for a window of width-->
